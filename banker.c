@@ -4,16 +4,7 @@ void main()
 {
   int process,resource,i,j,instanc,k=0,count1=0,count2=0; //count,k      variables are taken for counting purpose
   printf("\n\t Enter No. of Process:-\n");
-  printf("\t\t");
-  scanf("%d",&process);                            //Entering No. of Processes
-  printf("\n\tEnter No. of Resources:-\n");
-  printf(
-    printf("\t\t");
-    scanf("%d",&instanc);
-    avail[i]=instanc;                        // Storing Available instances
-  }
-
-  printf("\n\tEnter Maximum No. of instances of resources that a Process need:\n");
+  printf("\t\ter Maximum No. of instances of resources that a Process need:\n");
 
   for(i=0;i<process;i++)
   {
