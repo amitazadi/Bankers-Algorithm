@@ -7,18 +7,7 @@ void main()
   printf("\t\t");
   scanf("%d",&process);                            //Entering No. of Processes
   printf("\n\tEnter No. of Resources:-\n");
-  printf("\t\t");
-  scanf("%d",&resource);                       //No. of Resources
-
-  int avail[resource],max[process][resource],allot[process][resource],need[process][resource],completed[process];
-
-  for(i=0;i<process;i++)
-  completed[i]=0;                             //Setting Flag for uncompleted Process
-
-  printf("\n\tEnter No. of Available Instances\n");
-
-  for(i=0;i<resource;i++)
-  {
+  printf(
     printf("\t\t");
     scanf("%d",&instanc);
     avail[i]=instanc;                        // Storing Available instances
