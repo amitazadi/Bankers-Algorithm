@@ -1,1 +1,1 @@
-# SumOf-TwoNumber
+# Banker's Algorithm C code
