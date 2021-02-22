@@ -1,1 +1,1 @@
-# SumOf-TwoNumber
+# Bankers Algorithm
